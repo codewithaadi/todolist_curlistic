@@ -2,7 +2,8 @@ import axios from "axios";
 import { ADDNEW_TODO , GETALL_TODO, TOGGLE_TODO,UPDATE_TODO,DELETE_TODO,TOGGLE_TAB} from "./type";
 
 
-const API_URL = "http://localhost:8000";
+// const API_URL = "http://localhost:8000";
+const API_URL = "https://todolist-backend-5btp.onrender.com";
 
 export const addNewTodo = (data) => async(dispatch)=> {
   try {
